@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'padrao';
+    src: url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Montserrat:wght@200&display=swap');
+  
+    font-family: 'destaque';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+}
+  
+:root{
+    --cor0: rgb(255, 255, 255);
+    --cor1: #B8B8B8;
+    --cor2: #323232;
+    --cor3: #24252A;
+    --cor4: #000000;
+    --cordestaque: #00b8e4;
+    --corestrela: rgb(240, 206, 17);
+
+    --font-padrao: padrao;
+    --fonte-destaque: destaque;
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor4);
+  font-family: var(--font-padrao);
+}
+  
+.header {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: .85;
+    align-items: center;
+}
+
+.header > div {
+    background-color: var(--cor4);
+    padding: 10px;
+    margin: 2px;
+}
+
+.header a {
+    background: var(--cor4);
+    color: white;
+    text-decoration: none;
+}
+
+.contact a {
+    border-radius: 20px;
+    background: var(--corestrela);
+    color: var(--cor4);
+    padding: 10px 20px;
+}
+
+/* .lorem-ipsum {
+    padding: 20px;
+    max-width: 960px;
+    margin: 80px auto 0;
+    color: var(--cor0);
+}
+
+.lorem-ipsum > p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: var(--cor0);
+} */
+
+.home {
+    margin-left: 0px;
+    margin-top: 80px;
+}
+
+.home > div { 
+    color: var(--cor0);
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-left: 220px;
+}
+
+.intro {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.skills > div {
+    
+    border: 1px solid black;
+    color: var(--cordestaque);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--cor0);
+    padding-bottom: 40px;
+}
+
+.box {
+    border: 1px solid white;
+    display: flex;
+}
+
+.img-left {
+    border: 1px solid white;
+    margin-right: 750px;
+    margin-left: 100px;
+    height: 600px;
+}
+
+.img-left img {
+    height: 100%;
+}
+
+.title-right{
+    border: 1px solid white;
+    color: var(--cor0);
+    font-size: 22px;
+    margin-bottom: 600px;
+    
+}
+
+.text-right {
+    border: 1px solid white;
+    color: var(--cor0);
+    
+    font-size: 16px;
+    
+    
+}
