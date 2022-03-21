@@ -75,7 +75,7 @@
 
 .home {
     margin-left: 0px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .home > div { 
@@ -105,9 +105,9 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
     color: var(--cor0);
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .box {
@@ -117,7 +117,7 @@
 
 .img-left {
     border: 1px solid white;
-    margin-right: 750px;
+    
     margin-left: 100px;
     height: 600px;
 }
@@ -126,19 +126,22 @@
     height: 100%;
 }
 
-.title-right{
-    border: 1px solid white;
-    color: var(--cor0);
-    font-size: 22px;
-    margin-bottom: 600px;
-    
-}
-
 .text-right {
     border: 1px solid white;
     color: var(--cor0);
-    
+    margin-left: 20px;  
+}
+
+.text-right > div {
     font-size: 16px;
+    text-align: left;
     
-    
+}
+
+.box-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0px;
+    color: var(--cor0);
 }
