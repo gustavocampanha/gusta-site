@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="refresh" content="4">
+    <!-- <meta http-equiv="refresh" content="4"> -->
     
     <meta property="og:type" content="website"/>
 
@@ -40,12 +40,15 @@
         <div>
             <a href="">Blog</a>
         </div>
+
         <div>
             <a href="https://github.com/gustavocampanha" target="_blank" rel="external">GitHub</a>
         </div>
-        <div>
-            <a href="https://www.instagram.com/gustavo.gcf/" target="_blank" rel="external">Instagram</a>
+
+        <div class="instagram click border" onclick="window.open(`https://www.instagram.com/gustavo.gcf/`)">
+            <img src="" alt="Instagram">
         </div>
+        
         <div>
             <a href="https://www.linkedin.com/in/gustavo-campanha/" target="_blank" rel="external">LinkedIn</a>
         </div>
@@ -75,8 +78,8 @@
     </div>
 
     
-    <div class="title">
-        Sobre
+    <div class="title" id="#about">
+        About
     </div>
     <div class="box">
         <div class="img-left">
@@ -87,7 +90,7 @@
                 Gustavo Campanha
             </div>
             <div class="text-right">
-                Programmer and back-end  developer with 3 years of experience. Currently student of Data Science and Artificial Intelligence at FGV-Rio... living in Rio de Janeiro.
+                Programmer and back-end  developer with 3 years of experience. Currently student of Data Science and Artificial Intelligence at FGV-Rio...
             </div>
             <div class="text-right">
                 Approved and classified in Colégio Pedro II and Colégio Militar in 2012, elementary school competition, had his studies concluded at the CMRJ. During this journey, he participated in numerous math Olympiads, having as main achievements Gold in the OBMEP (Brazilian Public School Mathematics Olympiad) and Honorable Mention at OBM (Brazilian Mathematical Olympiad).
@@ -99,19 +102,24 @@
                 Because his father always warned him about the importance of personal finances, he developed a taste for reading books in this area and thus managed to develop an interesting knowledge about the area. with the help of technology, he controls his finances almost automatically and is on the path to financial independence.
             </div>
             <div class="text-right">
-                Continua gostando de desafios inovadores, tendo como principal objetivo agregar, com o conhecimento obtido, aos colegas, desenvolvendo projetos ou compartilhando experiências.
+                Continues enjoying innovative challenges, with the main objective of adding, with the knowledge obtained, to colleagues, developing projects or sharing experiences.
             </div>
             <div class="text-right">
-                Apaixonado por viajar, já coleciona 12 países carimbados, sendo os principais: Estados Unidos, Espanha, Canadá, Itália, México! Satisfeito sim, cansado nunca... não vê a hora de ir ao próximo destino conhecer culturas diferentes e conhecer pessoas novas.
+                Passionate about traveling, he already collects 12 countries stamped, the main ones being: United States, Spain, Canada, Italy, Mexico! Satisfied yes, never tired... can't wait to go to the next destination to meet different cultures and meet new people.
             </div>
             <div class="text-right">
-                Por fim, mas não menos importante, dedica parte do seu tempo à ações sociais, participando de um pequeno grupo que arrecada comida e brinquedos para crianças com câncer na Casa de Apoio à Criança com Câncer São Vicente de Paulo, local próximo a casa de seus pais, onde foi criado.
+                Last but not least, he dedicates part of his time to social actions, participating in a small group that collects food and toys for children with cancer at the Casa de Apoio à Criança com Câncer São Vicente de Paulo, a place close to his country where he was raised.
             </div>
-            <div class="telefone">
-                <div>
-                    Telefone / WhatsApp: (21) 96464-9955
+            <div class="info ">
+                <div class="telefone ">
+                    <div class="numero ">
+                        Telefone / WhatsApp: +55 (21) 96464-9955
+                    </div>
+                    <div class="whatsapp click" onclick="window.open(`https://wa.me/5521964649955`)">
+                        <img src="image/whatsapp.png" alt="Link WhatsApp">
+                    </div>
                 </div>
-                <div>
+                <div class="cidade ">
                     <b>Rio de Janeiro (RJ) | São Paulo (SP)</b>
                 </div>
             </div>
@@ -123,7 +131,7 @@
         Services
     </div>
     <div class="box">
-        <div class="services">
+        <div class="services border">
             <div class="services-img">
                 <img src="" alt="">
             </div>
@@ -134,7 +142,7 @@
                 Controle total das suas finanças, o destino que você está dando ao seu dinheiro é de extrema importância.
             </div>
         </div>
-        <div class="services">
+        <div class="services border">
             <div class="services-img">
                 <img src="" alt="">
             </div>
@@ -145,7 +153,7 @@
                 Aumente sua estabilidade com suas finanças organizadas e planos para redução de custos e superação de gargalos.
             </div>
         </div>
-        <div class="services">
+        <div class="services border">
             <div class="services-img">
                 <img src="" alt="">
             </div>
@@ -159,7 +167,7 @@
     </div>
 
     <div class="box">
-        <div class="services">
+        <div class="services border">
             <div class="services-img">
                 <img src="" alt="">
             </div>
@@ -170,7 +178,7 @@
                 Especialista em Python, SQL, C++...
             </div>
         </div>
-        <div class="services">
+        <div class="services border">
             <div class="services-img">
                 <img src="" alt="">
             </div>
@@ -181,7 +189,7 @@
                 Otimize processos repetitivos ou ineficazes de seu negócio.
             </div>
         </div>
-        <div class="services">
+        <div class="services border">
             <div class="services-img">
                 <img src="" alt="">
             </div>
@@ -198,18 +206,34 @@
         Portifolio
     </div>
     <div class="box">
-        <div class="portifolio-1">
-            <a href="https://google.com" target="_blank" class="fill-div"></a>
+        <div class="portifolio url1">
+            <a href="https://github.com/gustavocampanha/Password-Generator" target="_blank" class="fill-div"></a>
         </div>
         
-        <div class="portifolio-2">
-            <a href="https://google.com" target="_blank" class="fill-div"></a>
+        <div class="portifolio url2">
+            <a href="https://github.com/gustavocampanha/guessing-game-0-100" target="_blank" class="fill-div"></a>
         </div>
 
-        <div class="portifolio-3">
-            <a href="https://google.com" target="_blank" class="fill-div"></a>
+        <div class="portifolio url3">
+            <a href="portifolio/Amostra - Finanças Pessoais.xlsm" target="_blank" class="fill-div"></a>
         </div>
     </div>
     
+    
+    <div class="title" id="contact">
+        Contact
+    </div>
+    <div class="contact">
+        Se você quiser conversar, entre em contato, estou quase sempre online :)
+    </div>
+    <div class="button">
+        <div class="button-final">
+            <a href="">Contact</a>
+        </div>
+    </div>    
+    <footer class="footer">
+        &copy; Copyright 2022.
+    </footer>
+        
 </body>
 </html>
