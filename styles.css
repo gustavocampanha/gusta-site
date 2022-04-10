@@ -113,7 +113,7 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 30px;
     background-color: var(--cor4);
     color: var(--cordestaque);
@@ -135,6 +135,8 @@
 
 .img-left img {
     height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .about-right {
@@ -269,3 +271,22 @@ a.fill-div {
     padding-top: 15px;
     padding-bottom: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+    * {
+      font-size: 12px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .box {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .services {
+        margin-bottom: 20px;
+    }
+  }
