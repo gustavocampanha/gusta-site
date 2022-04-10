@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'padrao';
-    src: url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Montserrat:wght@200&display=swap');
-  
-    font-family: 'destaque';
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Montserrat:wght@400;700&display=swap');
 
 :root{
     --cor0: rgb(255, 255, 255);
@@ -24,6 +18,7 @@
   padding: 0;
   color: var(--cor0);
   box-sizing: border-box;
+  font-family: Montserrat;
 }
   
 .border {
@@ -56,10 +51,22 @@
     text-decoration: none;
 }
 
-.instagram a i{
-    width: 1em;
-    height: 1em;
-    
+.github img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+.instagram img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+.linkedin img {
+    height: 30px;
+    width: 30px;
+    display: flex;
 }
 
 .contact a {
@@ -74,7 +81,7 @@
     margin-left: 0px;
     margin-top: 62px;
     padding-bottom: 160px;
-    background-image: url("https://i.ibb.co/CHnQ3mn/img.png");
+    background-image: url("https://i.ibb.co/xGhRsGP/img-4-1.png");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -85,7 +92,7 @@
 .home > div { 
     letter-spacing: -1px;
     text-transform: uppercase;
-    margin-left: 180px;  
+    margin-left: 150px;  
 }
 
 .intro {
@@ -114,14 +121,15 @@
 
 .box {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     background-color: var(--cor4);
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 .img-left {
-    margin-left: 90px;
+    margin-left: 80px;
     height: 640px;
 }
 
@@ -166,18 +174,10 @@
     display: flex;
 }
 
-.numero {
-    font-family: var(--fonte-destaque);
-}
-
 .whatsapp img {
     height: 20px;
     width: 20px;
     margin-left: 8px;
-}
-
-.cidade {
-
 }
 
 .services {
@@ -189,11 +189,13 @@
 }
 
 .services-img {
-
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .services-title {
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -202,10 +204,10 @@
 .services-text {
     text-align: center;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-.portifolio {
+.portfolio {
     border-radius: 10px;
     height: 300px;
     width: 400px;
