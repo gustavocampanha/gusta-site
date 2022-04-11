@@ -182,7 +182,7 @@
     margin-left: 8px;
 }
 
-.services {
+.skills {
     border-radius: 1rem;
     height: 200px;
     width: 300px;
@@ -190,20 +190,20 @@
     
 }
 
-.services-img {
+.skills-img {
     padding-top: 15px;
     display: flex;
     justify-content: center;
 }
 
-.services-title {
+.skills-title {
     margin-top: 15px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
 }
 
-.services-text {
+.skills-text {
     text-align: center;
     font-size: 16px;
     margin-top: 15px;
@@ -298,7 +298,7 @@ a.fill-div {
         padding-bottom: 0px;
     }
 
-    .services {
+    .skills {
         margin-bottom: 20px;
     }
   }
