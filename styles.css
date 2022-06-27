@@ -266,21 +266,72 @@ a.fill-div {
 
 .button {
     background-color: var(--cor4);
-    padding: 25px;
+    padding: 15px;
     text-align: center;
 }
 
-.button-final a {
+.button-final {
     border-radius: 20px;
+    background-color: var(--corestrela);
+    border: 1px solid var(--cor4);
+    color: var(--cor4);
+    text-decoration: none;
+    padding: 20px 70px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button-close {
+    border-radius: 10px;
     background: var(--corestrela);
+    border: 1px solid var(--cor4);
     color: var(--cor4);
     padding: 10px 20px;
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.modal-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: 0.3s ease;
+}
+
+.modal-box.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: var(--cor0);
+    border-radius: 10px;
+    padding: 30px 50px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    border: 1px solid var(--cor4);
+}
+
+.modal h1 {
+    margin: 0;
+    color: var(--cor4);
     font-size: 24px;
+}
+
+.modal p {
+    margin: 0;
+    color: var(--cor4);
+    margin-top: 5px;
 }
 
 .footer {
