@@ -3,6 +3,7 @@ const open_contact = document.getElementById('open_contact');
 const modal_box = document.getElementById('modal-box');
 const close = document.getElementById('close');
 const send = document.getElementById('send');
+
 open_header.addEventListener('click', () => {
     modal_box.classList.add('show');
 });
