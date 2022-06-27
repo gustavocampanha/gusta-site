@@ -281,6 +281,10 @@ a.fill-div {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: var(--cordestaque);
+}
+
 .button-close {
     border-radius: 10px;
     background: var(--corestrela);
@@ -331,7 +335,26 @@ a.fill-div {
 .modal p {
     margin: 0;
     color: var(--cor4);
-    margin-top: 5px;
+    margin-top: 2px;
+}
+
+.modal h2 {
+    margin: 0;
+    color: var(--cor4);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.modal input {
+    color: var(--cor4);
+    border-radius: 5px;
+    width: 65%;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    border: 1.5px solid var(--cor4);
 }
 
 .footer {
