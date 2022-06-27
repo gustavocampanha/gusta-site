@@ -85,6 +85,11 @@ a:hover {
     text-decoration: none;
 }
 
+.contact a:hover {
+    background-color: var(--cordestaque);
+    color: var(--cor4);
+}
+
 .home {
     margin-left: 0px;
     margin-top: 62px;
