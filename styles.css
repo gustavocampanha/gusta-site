@@ -89,7 +89,7 @@ a:hover {
     margin-left: 0px;
     margin-top: 62px;
     padding-bottom: 160px;
-    background-image: url("https://i.ibb.co/xGhRsGP/img-4-1.png");
+    background-image: url("image/intro_img.png");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -226,27 +226,27 @@ a:hover {
 }
 
 .url1 {
-    background-image: url("https://i.ibb.co/LPzCJJn/Password-Generate-Tool.png");
+    background-image: url("image/portfolio_password_generator.png");
 }
 
 .url2 {
-    background-image: url("https://i.ibb.co/T4s3YWP/Number.png");
+    background-image: url("image/portfolio_guessing_game.png");
 }
 
 .url3 {
-    background-image: url("https://i.ibb.co/K7zK0Xb/Number-1.png");
+    background-image: url("image/portfolio_excel.png");
 }
 
 .url4 {
-    background-image: url("https://i.ibb.co/tMKjzsG/resume.jpg");
+    background-image: url("image/resume.jpg");
 }
 
 .url5 {
-    background-image: url("https://i.ibb.co/NWN49QK/portifolio-site.jpg");
+    background-image: url("image/portfolio_site.JPG");
 }
 
 .url6 {
-    background-image: url("https://i.ibb.co/ZK0SD0K/Captura-de-Tela-2022-04-10-a-s-21-29-06.jpg");
+    background-image: url("image/portfolio_mandala.jpg");
 }
 
 a.fill-div {
