@@ -46,7 +46,7 @@
         <div class="linkedin click" onclick="window.open(`https://www.linkedin.com/in/gustavo-campanha/`)">
             <img src="image/icon_linkedin.png" alt="LinkedIn">
         </div>
-        <div class="contact effect" id="open">
+        <div class="contact effect" id="open_header">
             <a href="#contact">Contact</a>
         </div>
     </div>
@@ -236,7 +236,7 @@
     </div>
 
     <div class="button" id="contact">
-        <button class="button-final effect" id="open">
+        <button class="button-final effect" id="open_contact">
             Contact me
         </button>
     
@@ -251,18 +251,21 @@
                 <h2>
                     Type your name:
                 </h2>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="info_pessoa_name">
                 <h2>
                     Type your e-mail:
                 </h2>
-                <input type="text" name="email" id="email">
+                <input type="text" name="email" id="info_pessoa_email">
                 <h2>
                     Type your phone number:
                 </h2>
-                <input type="text" name="phone" id="phone">
+                <input type="text" name="phone" id="info_pessoa_phone">
                 <div>
                     <button class="button-close effect" id="close">
-                        SEND / CLOSE
+                        CLOSE
+                    </button>
+                    <button class="button-send effect" id="send">
+                        SEND
                     </button>
                 </div>
             </div>

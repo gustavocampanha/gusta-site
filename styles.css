@@ -296,6 +296,20 @@ button:hover {
 
 .button-close {
     border-radius: 10px;
+    background: var(--cor4);
+    border: 1px solid var(--cor4);
+    color: var(--cor0);
+    padding: 10px 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.button-send {
+    border-radius: 10px;
     background: var(--corestrela);
     border: 1px solid var(--cor4);
     color: var(--cor4);
@@ -304,7 +318,7 @@ button:hover {
     padding: 5px 10px;
     font-size: 14px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 15px;;
 }
 
 .modal-box {
